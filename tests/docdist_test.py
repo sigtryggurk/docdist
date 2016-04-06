@@ -1,5 +1,8 @@
+import os, sys
 import unittest
 import math
+
+sys.path.insert(0, os.path.abspath('..'))
 from docdist.docdist import doc_dist, doc_dist_pairs
 
 class TestDocDistMethods(unittest.TestCase):
